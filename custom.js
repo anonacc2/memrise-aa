@@ -1,5 +1,5 @@
 let transd=JSON.parse(prompt("Transd, create it from train-transd.js"))
-
+setTimeout = function (f,t){f()};
 
 function ansr() {
     Array.from(document.querySelector("#__next > div.sc-35r7d9-0.kBvoSf > div > div > div > div > div.sc-1yeljmw-0.jXqGzN > div.sc-1fe58ld-0.ebbpuO > div > div.sc-1opiu1v-0.bBmryr").children).forEach(c=>{
